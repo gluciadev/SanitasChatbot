@@ -36,7 +36,11 @@ export const Login: React.FC<LoginProps> = ({ locale }) => {
     <div className={Styles.loginContainer}>
       <div className={Styles.loginCard}>
         <div className={Styles.sanitasLogo}>
-          SANITAS
+          <img 
+            src="https://codeoscopic.com/wp-content/uploads/2024/07/ha-logo-sanitas.png" 
+            alt="Sanitas Logo" 
+            className={Styles.logoImage}
+          />
         </div>
         
         <h1 className={Styles.loginTitle}>

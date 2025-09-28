@@ -23,7 +23,7 @@ describe('<Login />', () => {
     const props = aLoginProps();
     render(<Login {...props} />);
 
-    expect(screen.getByText('SANITAS')).toBeInTheDocument();
+    expect(screen.getByAltText('Sanitas Logo')).toBeInTheDocument();
     expect(screen.getByText('Iniciar Sesión')).toBeInTheDocument();
     expect(screen.getByPlaceholderText('Correo')).toBeInTheDocument();
     expect(screen.getByPlaceholderText('Nombre de usuario')).toBeInTheDocument();

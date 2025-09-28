@@ -1,13 +1,13 @@
 ---
 title: Login
-last_update: 2025-09-21
+last_update: 2025-09-28
 path: /[locale]
 ---
 
 # Login
 
 ## Descripción funcional
-Renderiza la pantalla de login que se muestra automáticamente al iniciar la aplicación. Permite al usuario ingresar su correo electrónico y nombre de usuario mediante un formulario validado que almacena las credenciales en el estado global.
+Renderiza la pantalla de login que se muestra automáticamente al iniciar la aplicación. Incluye el logo oficial de Sanitas y permite al usuario ingresar su correo electrónico y nombre de usuario mediante un formulario validado que almacena las credenciales en el estado global.
 
 ---
 
